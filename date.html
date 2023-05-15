@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+    </head>
+    <script>
+        //const bornDate = new Date()
+        //const bornDate = new Date(2000, 10, 10,8,0,0)
+
+        //const bornDate = new Date("Oct 10 2000")
+        const bornDate = new Date("2000-10-10T05:00:00.000Z")
+        const today = new Date()
+
+        console.log(bornDate)
+        console.log(bornDate.toISOString())
+
+        console.log("dia", bornDate.getDate())
+        console.log("mês", bornDate.getMonth() + 1)
+        console.log("ano", bornDate.getFullYear())
+
+        console.log("idade", today.getFullYear() - bornDate.getFullYear() - 1)
+        console.log("idade", today)
+        
+    </script>
+</html> 

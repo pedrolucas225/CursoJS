@@ -1,0 +1,19 @@
+<html>
+    <script>
+        // var equivalente a uma "variável global"
+        var x = 10
+        
+        console.log("x", x)
+        
+        {
+
+            console.log("x", x)
+            x = 20
+
+            var y = 30 // teria que declarar a variavel dentro do Scoped
+            
+        }
+        console.log("y", y)
+        console.log("x", x)
+    </script>
+</html>

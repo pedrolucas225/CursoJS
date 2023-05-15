@@ -1,0 +1,16 @@
+<html>
+    <script>
+        // const não pode alterar valores 
+        const x = 10
+        
+        console.log("x", x)
+        {
+            console.log("x", x)
+
+            const y = 30
+        }
+        console.log("x", x)
+        console.log("y", y) // não acessível fora do seu contexto
+
+    </script>
+</html>

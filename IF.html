@@ -1,0 +1,36 @@
+<html>
+    <script>
+        
+        const media = 7
+        const reprova =  5
+        
+        while (true) {
+        const todasAsNotas = [
+        notaP1 = Number(prompt("Nota da P1: ")),
+        notaP2 = Number(prompt("Nota P2: ")),
+        Quiz = Number(prompt("Nota de Quiz: ")),
+        Outros = Number(prompt("Nota de Outros")),
+        ]
+    
+        
+        const calculoDaMedia = (((notaP1 * 0.6) + (notaP2 * 0.6)) / 2) + ((Quiz * 0.2) + (Outros * 0.2))
+        console.log(calculoDaMedia)
+
+        const mediaDoAluno = calculoDaMedia 
+
+        if (mediaDoAluno >= media) { 
+            console.log("Aprovado!")
+          
+        }else if(mediaDoAluno < media) {
+            console.log("Exame!")
+           
+        }else if(mediaDoAluno < reprova) {
+            console.log("Reprovado!")
+            
+        }
+        
+        }
+        var novamente = String(prompt("Deseja calcular novamente? s/n"))
+        
+    </script>
+</html>

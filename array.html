@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charseet="UTF-8" />
+    </head>
+    <script>
+        // variável + índice (que sempre inicia do 0)
+        //const persons = ["Felipe", "Ana", "Paulo"]
+        const persons = [ 
+            {name: 'Felipe', age: 40},
+            {name: 'Ana', age: 35},
+            {name: 'Paulo', age: 22},
+            //"Zé", // não seria um aboa prática (mistura tipos dentro do array)
+        ]
+
+        persons[0] = "Zé"
+
+        //persons[999] = " Zé " // não seria uma boa prática(está fora do rande dos índices)
+
+        console.log(persons[0])
+        console.log(persons[1])
+        console.log(persons[2])
+        console.log(persons)
+
+
+
+        console.log(persons.length)
+    </script>
+</html>
